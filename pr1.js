@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Clientes = require('./app/clientes');
+const Esquemas = require('./app/esquemas');
 
 mongoose.connect("mongodb://localhost:27017/FRALAK");
 var fecha = new Date();
@@ -9,12 +9,12 @@ var usu = {
     nuevo: "sssss"
 }
 
-var cliente = new Clientes({
-    codigo: "String2",
-    nombre: "String2",
-    tipo: "String2",
-    ciudad: "String2",
-    estado: "String2",
+var cliente = new Esquemas.Usr({
+    codigo: "String3",
+    nombre: "String3",
+    tipo: "String3",
+    ciudad: "String3",
+    estado: "String3",
     GPS: [12.22, 12.33],
     visitas: [{
         fecha: fecha,

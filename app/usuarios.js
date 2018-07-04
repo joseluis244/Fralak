@@ -11,7 +11,14 @@ const usuarios = mongoose.Schema({
         visitas:[{
             fecha:Date,
             cliente:Object
-        }]
+        }],
+        agenda:[{
+            fecha_registro:Date,
+            fecha_inicio:Date,
+            fecha_final:Date,
+            clientes:[]//_id,codigocliente,nombre,GPS
+        }],
+        estado:String
     }
 })
 

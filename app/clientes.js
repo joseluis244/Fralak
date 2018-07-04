@@ -11,8 +11,7 @@ const clientes = mongoose.Schema({
             fecha:Date,
             ejecutivo:Object,
             motivo:String
-        }],
-        ultima_visita:Date
+        }]
 })
 
 module.exports = mongoose.model('Clientes',clientes);
