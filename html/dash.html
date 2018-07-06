@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+
+
+    <link rel="stylesheet" href="./dash/dash.css">
+</head>
+
+<body onload="caldim()" onresize="caldim()">
+    <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet lista">
+            <div class="lista_vendedores">
+                Lista de vendedores
+            </div>
+            <ul class="demo-list-item mdl-list">
+                <li class="mdl-list__item" onclick="ir_perfil()">
+                    <span class="mdl-list__item-primary-content">
+                        Bryan Cranston
+                    </span>
+                    <span>Visitas: 3</span>
+                </li>
+                <li class="mdl-list__item">
+                    <span class="mdl-list__item-primary-content">
+                        Aaron Paul
+                    </span>
+                    <span>Visitas: 5</span>
+                </li>
+                <li class="mdl-list__item">
+                    <span class="mdl-list__item-primary-content">
+                        Bob Odenkirk
+                    </span>
+                    <span>Visitas: 7</span>
+                </li>
+            </ul>
+        </div>
+        <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet" id="maincont" >
+            <canvas id="myChart"></canvas>
+        </div>
+        <div class="mdl-cell mdl-cell--12-col">
+            <div class="lista_vendedores">
+                Lista de cotizaciones pendientes
+            </div>
+            <ul class="demo-list-item mdl-list mdl-list__item--two-line">
+                <li class="mdl-list__item">
+                    <span class="mdl-list__item-primary-content">
+                        Bryan Cranston
+                        <span class="mdl-list__item-sub-title">Rayos X</span>
+                    </span>
+                </li>
+                <li class="mdl-list__item">
+                    <span class="mdl-list__item-primary-content">
+                        Aaron Paul
+                        <span class="mdl-list__item-sub-title">CR</span>
+                    </span>
+                </li>
+                <li class="mdl-list__item">
+                    <span class="mdl-list__item-primary-content">
+                        Bob Odenkirk
+                        <span class="mdl-list__item-sub-title">DR</span>
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+    <script src="./dash/dash.js"></script>
+    <script>
+        function ir_perfil(){
+            window.open("/html/profile.html","_blank")
+        }
+    </script>
+</body>
+
+</html>

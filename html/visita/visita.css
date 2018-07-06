@@ -1,0 +1,26 @@
+.PP{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 30px;
+    background-image: url("../img/customer_avatar.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.mdl-layout__content{
+    padding: 10px;
+}
+.linea_separacion{
+    border-bottom: 1px solid #8eacbb;
+    width: 100%;
+    height: 2px;
+    display: flex;
+}
+.botonera{
+    position: fixed;
+    bottom: 10px;
+}
+.mdl-button--raised.mdl-button--colored{
+    background: #b71c1c
+}

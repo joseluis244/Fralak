@@ -1,0 +1,17 @@
+ul{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+li{
+    border-bottom: 1px solid #8eacbb;
+}
+.lista{
+    overflow-y: auto;
+}
+.lista::-webkit-scrollbar { 
+    display: none;
+}
+.lista_vendedores{
+    font-size: 25px;
+    padding: 10px;
+}

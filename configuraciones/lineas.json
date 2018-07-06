@@ -1,0 +1,29 @@
+[
+    {
+        "linea":"Imagenologia",
+        "componentes":[
+            "Rayos X",
+            "Films",
+            "Quimicos",
+            "Ecografos",
+            "Digitalizadores",
+            "DR",
+            "Mamografo",
+            "Arco en C"
+        ]
+    },
+    {
+        "linea":"Soporte de vida",
+        "componentes":[
+            "monitores",
+            "Maquina de anestecia",
+            "Ventiladores"
+        ]
+    },
+    {
+        "linea":"Suturas",
+        "componentes":[
+            "Suturas"
+        ]
+    }
+]

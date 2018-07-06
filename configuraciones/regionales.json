@@ -1,0 +1,14 @@
+[
+    {
+        "regional":"Oriental",
+        "ciudades":["Santa Cruz","Beni","Tarija"]
+    },
+    {
+        "regional":"Central",
+        "ciudades":["Cochabamba","Potosi","Sucre"]
+    },
+    {
+        "regional":"Occidental",
+        "ciudades":["La Paz","Pando","Oruro"]
+    }
+]

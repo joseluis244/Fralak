@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="./main/main.css">
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--red-900">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">FRALAK</span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <div class="baner"></div>
+            <nav class="mdl-navigation">
+                <span style="font-size: 1rem; padding: 10px; margin-bottom: -8px">Listas:</span>
+                <a class="mdl-navigation__link" onclick="ver(12,this,obj);return false" href="">Vendedores</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content" id="main" style="overflow-y: auto">
+            
+        </main>
+    </div>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="./main/main.js"></script>
+    <script src="./main/main-jq.js"></script>
+    <script>
+        var obj = {nombre:"juan",ad:23}
+    function ver(numero,valor,obj){
+        console.log(valor);
+        console.log(numero);
+        console.log(obj);
+    }
+    </script>
+</body>
+
+</html>

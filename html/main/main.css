@@ -1,0 +1,30 @@
+ul{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+li{
+    border-bottom: 1px solid #8eacbb;
+}
+#fecha{
+    font-size: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #8eacbb;
+}
+.libot{
+    padding: 10px;
+    height: 100%;
+}
+.ejecutado{
+    background-color: #4b830d;
+}
+.warning{
+    background-color: #f9a825;
+}
+.baner{
+    background-color: white;
+    height: 15rem;
+    background-image: url('../img/68a2dd_35416ba7c8634b7ebb838d88b9319904.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+}
