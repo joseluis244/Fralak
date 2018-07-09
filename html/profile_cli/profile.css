@@ -4,12 +4,13 @@ ul{
 }
 li{
     border-bottom: 1px solid #8eacbb;
+    margin-right: 5px;
 }
 .datos_personales{
     height: 300px;
 }
 .dato_personal{
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 5px;
 }
 .PP{
@@ -71,8 +72,3 @@ li{
         height: auto;
     }
 } 
-@media only screen and (max-width:839px){
-    .datos_personales{
-        height: auto;
-    }
-}   

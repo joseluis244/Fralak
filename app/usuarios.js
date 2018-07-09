@@ -9,7 +9,10 @@ const usuarios = mongoose.Schema({
     regional: String,
     visitas: [{
         fecha: Date,
-        cliente: Object
+        cliente: Object,
+        GPS:[],
+        motivo:String,
+        estado:String
     }],
     agenda: [{
         fecha_registro: Date,

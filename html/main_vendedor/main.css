@@ -1,0 +1,58 @@
+.mdl-list__item{
+    padding-left: 0px;
+}
+ul{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+li{
+    border-bottom: 1px solid #8eacbb;
+}
+#fecha{
+    font-size: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #8eacbb;
+}
+.libot{
+    padding: 10px;
+    height: 100%;
+}
+.ejecutado{
+    background-color: #4b830d;
+}
+.warning{
+    background-color: #f9a825;
+}
+.baner{
+    background-color: white;
+    height: 15rem;
+    background-image: url('../img/68a2dd_35416ba7c8634b7ebb838d88b9319904.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+}
+#main{
+    padding: 10px;
+}
+.estado_visita{
+    display: inline-block;
+    height: 65px;
+    width: 5px;
+    margin-right: 5px;
+}
+.pendiente{
+    background-color: #8eacbb;
+}
+.realizado{
+    background-color: #4b830d;
+}
+.PP{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 30px;
+    background-image: url("../img/customer_avatar.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}

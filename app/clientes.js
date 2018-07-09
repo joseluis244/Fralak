@@ -10,7 +10,9 @@ const clientes = mongoose.Schema({
         visitas:[{
             fecha:Date,
             ejecutivo:Object,
-            motivo:String
+            motivo:String,
+            GPS:[],
+            estado:String
         }]
 })
 

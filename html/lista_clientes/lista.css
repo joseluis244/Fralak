@@ -1,0 +1,14 @@
+.mdl-layout__content{
+    padding: 10px;
+}
+.buscador_input{
+    width: calc(100% - 20px);
+    border: 0px;
+    border-bottom: 1px solid #8eacbb;
+    height: 16px;
+    font-size: 16px;
+    padding: 10px;
+}
+.buscador_input:focus{
+    outline-width: 0px;
+}

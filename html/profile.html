@@ -14,8 +14,9 @@
 <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header mdl-color--red-900">
-            <div class="mdl-layout__header-row" style="padding-left: 40px">
+            <div class="mdl-layout__header-row" style="padding-left: 15px">
                 <!-- Title -->
+                <span style="margin-right: 10px"><i class="material-icons">home</i></span>
                 <span class="mdl-layout-title">Perfil</span>
                 <!-- Add spacer, to align navigation to the right -->
                 <div class="mdl-layout-spacer"></div>
@@ -28,15 +29,15 @@
                 <!-- Your content goes here -->
                 <div style="padding: 10px;">
                     <div class="mdl-grid mdl-grid--no-spacing datos_personales">
-                        <div class="mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--4-col-phone cont_datospersonales">
+                        <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone cont_datospersonales">
                             <div class="PP2"></div>
                             <div style="padding-top: 40px">
-                                <div class="dato_personal"> <span style="font-size: 1.5rem; width: 100px; display: inline-block">Nombre:</span>Jose Luis Camacho</div>
-                                <div class="dato_personal"> <span style="font-size: 1.5rem; width: 100px; display: inline-block">Regional:</span>Oriental</div>
-                                <div class="dato_personal"> <span style="font-size: 1.5rem; width: 100px; display: inline-block">Rol:</span>Especialista</div>
-                                <div class="dato_personal"> <span style="font-size: 1.5rem; width: 100px; display: inline-block">Correo:</span>jose.camacho@gmail.com</div>
-                                <div class="dato_personal"> <span style="font-size: 1.5rem; width: 100px; display: inline-block">Telefono:</span>75638342</div>
-                                <div class="dato_personal"> <span style="font-size: 1.5rem; width: 100px; display: inline-block">Estado:</span>activo</div>
+                                <div class="dato_personal"> <span style="font-size: 1rem; width: 100px; display: inline-block">Nombre:</span>Jose Luis Camacho</div>
+                                <div class="dato_personal"> <span style="font-size: 1rem; width: 100px; display: inline-block">Regional:</span>Oriental</div>
+                                <div class="dato_personal"> <span style="font-size: 1rem; width: 100px; display: inline-block">Rol:</span>Especialista</div>
+                                <div class="dato_personal"> <span style="font-size: 1rem; width: 100px; display: inline-block">Correo:</span>jose.camacho@gmail.com</div>
+                                <div class="dato_personal"> <span style="font-size: 1rem; width: 100px; display: inline-block">Telefono:</span>75638342</div>
+                                <div class="dato_personal"> <span style="font-size: 1rem; width: 100px; display: inline-block">Estado:</span>activo</div>
                             </div>
                         </div>
                         <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
@@ -62,12 +63,12 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
                             <canvas id="myChart"></canvas>
                         </div>
                     </div>
                     <div class="mdl-grid mdl-grid--no-spacing">
-                        <div class="mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
                             <h5>Cotizaciones</h5>
                             <ul class=" mdl-list">
                                 <li class="mdl-list__item mdl-list__item--two-line">
@@ -90,14 +91,14 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
                             <h5>Lista de clientes</h5>
                             <div>
                                 <input id="buscador_clientes" type="text" placeholder="Buscar">
                                 <span id="liner"></span>
                             </div>
                             <ul class=" mdl-list">
-                                <li class="mdl-list__item">
+                                <li class="mdl-list__item" onclick="window.location.href = './profile_cli.html'">
                                     <span class="mdl-list__item-primary-content">
                                         Cliente1
                                     </span>

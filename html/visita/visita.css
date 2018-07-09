@@ -1,3 +1,41 @@
+/*estilos material*/
+.mdl-layout__content{
+    padding: 10px;
+}
+.mdl-button--raised.mdl-button--colored{
+    background: #b71c1c
+}
+.mdl-radio.is-checked .mdl-radio__outer-circle{
+    border: 2px solid #b71c1c;
+}
+.mdl-radio__inner-circle{
+    background: #b71c1c;
+}
+.mdl-radio.is-upgraded{
+    margin-right: 15px;
+}
+.mdl-radio__ripple-container .mdl-ripple{
+    background: rgb(181, 63, 63)
+}
+.mdl-spinner--single-color .mdl-spinner__layer-1{
+    border-color: #b71c1c;
+}
+.mdl-spinner--single-color .mdl-spinner__layer-2{
+    border-color: #b71c1c;
+}
+.mdl-spinner--single-color .mdl-spinner__layer-3{
+    border-color: #b71c1c;
+}
+.mdl-spinner--single-color .mdl-spinner__layer-4{
+    border-color: #b71c1c;
+}
+.mdl-checkbox.is-checked .mdl-checkbox__box-outline{
+    border: 2px solid #b71c1c;
+}
+.mdl-checkbox.is-checked .mdl-checkbox__tick-outline{
+    background: #b71c1c;
+}
+/*estilos visitas*/
 .PP{
     height: 50px;
     width: 50px;
@@ -8,9 +46,6 @@
     background-size: contain;
     background-position: center;
 }
-.mdl-layout__content{
-    padding: 10px;
-}
 .linea_separacion{
     border-bottom: 1px solid #8eacbb;
     width: 100%;
@@ -18,9 +53,36 @@
     display: flex;
 }
 .botonera{
-    position: fixed;
     bottom: 10px;
 }
-.mdl-button--raised.mdl-button--colored{
-    background: #b71c1c
+.key_dato{
+    font-size: 16px;
+    line-height: 24px;
+    width: 150px;
+    display: inline-block;
+    font-weight: bold;
+}
+.valor_dato{
+    font-size: 16px;
+}
+#mensaje_proceso{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+}
+textarea:focus{
+    outline-width: 0px;
+    font-size: 16px;
+    line-height: 24px;
+}
+textarea::-webkit-input-placeholder{
+    font-size: 16px;
+    line-height: 24px;
+}
+.checkbox_opciones{
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    width: 130px;
+    height: 40px;
 }

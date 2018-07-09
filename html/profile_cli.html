@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="./profile_cli/profile.css">
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-color--red-900">
+            <div class="mdl-layout__header-row" style="padding-left: 40px">
+                <!-- Title -->
+                <span class="mdl-layout-title">Perfil</span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation. We hide it in small screens. -->
+                <div class="PP"></div>
+            </div>
+        </header>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <!-- Your content goes here -->
+                <div style="padding: 10px;">
+                    <div class="mdl-grid mdl-grid--no-spacing datos_personales">
+                        <div class="mdl-cell mdl-cell--4-col cont_datospersonales">
+                            <div class="PP2"></div>
+                            <div style="padding-top: 40px">
+                                <div class="dato_personal"> <span style="font-size: 1.5rem; width: 100px; display: inline-block">Nombre:</span>Cliente1</div>
+                                <div class="dato_personal"> <span style="font-size: 1.5rem; width: 100px; display: inline-block">Ciudad:</span>Santa Cruz</div>
+                                <div class="dato_personal"> <span style="font-size: 1.5rem; width: 100px; display: inline-block">Direccion:</span>Direccion del cliente 1</div>
+                                <div class="dato_personal"> <span style="font-size: 1.5rem; width: 100px; display: inline-block">Correo:</span>Correo.cliente1@mail.com</div>
+                                <div class="dato_personal"> <span style="font-size: 1.5rem; width: 100px; display: inline-block">Telefono:</span>75638342</div>
+                                <div class="dato_personal"> <span style="font-size: 1.5rem; width: 100px; display: inline-block">Estado:</span>activo</div>
+                            </div>
+                        </div>
+                        <div class="mdl-cell mdl-cell--4-col">
+                            <h5>Cotizaciones</h5>
+                            <ul class=" mdl-list">
+                                <li class="mdl-list__item mdl-list__item--two-line">
+                                    <span class="mdl-list__item-primary-content">
+                                        Cliente1
+                                        <span class="mdl-list__item-sub-title">Rayos X</span>
+                                    </span>
+                                </li>
+                                <li class="mdl-list__item mdl-list__item--two-line">
+                                    <span class="mdl-list__item-primary-content">
+                                        Cliente2
+                                        <span class="mdl-list__item-sub-title">Placas</span>
+                                    </span>
+                                </li>
+                                <li class="mdl-list__item mdl-list__item--two-line">
+                                    <span class="mdl-list__item-primary-content">
+                                        Cliente3
+                                        <span class="mdl-list__item-sub-title">Repuestos</span>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mdl-cell mdl-cell--4-col">
+                            <h5>Visitas</h5>
+                            <ul class="mdl-list">
+                                <li class="mdl-list__item mdl-list__item--two-line">
+                                    <span class="mdl-list__item-primary-content">
+                                        11/23/5813
+                                        <span class="mdl-list__item-sub-title">Ejecutivo 1</span>
+                                    </span>
+                                </li>
+                                <li class="mdl-list__item mdl-list__item--two-line">
+                                    <span class="mdl-list__item-primary-content">
+                                        21/34/5589
+                                        <span class="mdl-list__item-sub-title">Ejecutivo 1</span>
+                                    </span>
+                                </li>
+                                <li class="mdl-list__item mdl-list__item--two-line">
+                                    <span class="mdl-list__item-primary-content">
+                                        27/18/2818
+                                        <span class="mdl-list__item-sub-title">Ejecutivo 1</span>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+    <script src="./profile_cli/profile.js"></script>
+</body>
+
+</html>

@@ -1,15 +1,18 @@
 const mongoose = require('mongoose');
-const Usuarios = require('./app/clientes');
+const Usuarios = require('./app/usuarios');
+const Clientes = require('./app/clientes');
 
 mongoose.connect("mongodb://localhost:27017/FRALAK");
+var db_usu,db_cli;
 
-var cliente = new Usuarios({
-    codigo: "123",
-    nombre: "cl1",
-    tipo: "gabinete",
-    ciudad: "Santa Cruz",
-    estado: "activo",
-    GPS: [-17.098,-63.7584]
+Usuarios.find({},function(err,usu){
+    db_usu = usu;
+})
+Clientes.find({},function(err,cli){
+    db_cli = cli;
 })
 
-cliente.save(function (err) { console.log('guardado') })
+    setTimeout(function(){
+            console.log(db_cli);
+            console.log(db_usu);
+    },1000)
