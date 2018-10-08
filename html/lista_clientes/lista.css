@@ -12,3 +12,32 @@
 .buscador_input:focus{
     outline-width: 0px;
 }
+.alert_1{
+    background-color: #ffffe573;
+    
+}
+.alert_2{
+    background-color: #fbe9e76e;
+}
+/* busqueda */
+.bar 	{ position:relative; display:block; width:100%; }
+.bar:before, .bar:after 	{
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#b71c1c; 
+  transition:0.2s ease all; 
+}
+/*.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
+}*/
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:100%;
+}

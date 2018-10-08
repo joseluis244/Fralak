@@ -25,9 +25,13 @@
         <div class="mdl-layout__drawer">
             <div class="baner"></div>
             <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" onclick="ver();return false" href="">Inicio</a>
                 <span style="font-size: 1rem; padding: 10px; margin-bottom: -8px">Listas:</span>
-                <a class="mdl-navigation__link" onclick="ver();return false" href="">Agenda</a>
+                <a class="mdl-navigation__link" onclick="ver();return false" href="">Mis Clientes</a>
                 <a class="mdl-navigation__link" onclick="ver();return false" href="">Clientes</a>
+                <span style="font-size: 1rem; padding: 10px; margin-bottom: -8px">Acciones:</span>
+                <a class="mdl-navigation__link" onclick="ver();return false" href="">Crear Agenda</a>
+                <a class="mdl-navigation__link" onclick="ver();return false" href="">Ver Progreso</a>
             </nav>
         </div>
         <main class="mdl-layout__content" id="main" style="overflow-y: auto">
@@ -61,16 +65,14 @@
         </main>
     </div>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="./main_vendedor/main.js"></script>
-    <script src="./main_vendedor/main/main-jq.js"></script>
     <script>
         
     </script>
     <script>
         var obj = {nombre:"juan",ad:23}
-    function ver(numero,valor,obj){
+    function ver(){
         $('#main').load("./lista_clientes.html")
     }
     function realizar_visita(){

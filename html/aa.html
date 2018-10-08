@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .a{
+            display: inline-block;
+            width: 200px;
+            height: 100px;
+            background-color: antiquewhite;
+        }
+        .select{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="a" onclick="as(this)">
+        sd
+    </div>
+    <div class="a" onclick="as(this)">
+        sd1
+    </div>
+    <div class="a" onclick="as(this)">
+        sd2
+    </div>
+    <div class="a" onclick="as(this)">
+        sd3
+    </div>
+    <script>
+        function as(valor){
+            var docs = document.getElementsByClassName("a");
+            for(i=0;i<=docs.length-1;i++){
+                docs[i].classList.remove("select")
+            }
+            valor.classList.add("select")
+            console.log( valor.innerHTML )
+        }
+        console.log(document.getElementsByClassName("a")[0].innerHTML)
+    </script>
+</body>
+</html>

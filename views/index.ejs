@@ -1,0 +1,12 @@
+<% if (!user) { %>
+	<h2>Welcome! Please log in.</h2>
+<% } else { %>
+	<h2>Hello, <%= user.displayName %>.</h2>
+<% } %>
+	<% var ultimo = user.photos.length - 1 %>
+	<div style="background-image: url(<%= user.photos[ultimo].value %>); height: 100px; width: 100px; background-repeat: no-repeat;"></div>
+	<script>
+	console.log( <%- JSON.stringify(user) %> )
+	
+	</script>
+

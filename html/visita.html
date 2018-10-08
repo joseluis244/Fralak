@@ -257,16 +257,16 @@
                 console.log("GPS atencion")
             }
         }
-        var elemento_votizar=[]
+        var elemento_cotizar=[]
         function cotizar(valor){
             if(valor.checked){
-                elemento_votizar.push(valor.value)
-                console.log(elemento_votizar)
+                elemento_cotizar.push(valor.value)
+                console.log(elemento_cotizar)
             }
             else{
-                var pos = elemento_votizar.indexOf(valor.value);
-                elemento_votizar.splice(pos,1);
-                console.log( elemento_votizar)
+                var pos = elemento_cotizar.indexOf(valor.value);
+                elemento_cotizar.splice(pos,1);
+                console.log( elemento_cotizar)
             }
         }
     </script>
